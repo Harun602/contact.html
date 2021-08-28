@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all-news-wrapper{
+    display: flex;
+    justify-content: center;
+    background: rgb(187,187,187);
+}
+.all-news-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.all-news-wrapper .left-part{
+    width: 500px;
+    margin-right: 50px;
+}
+.all-news-wrapper .left-part .futured-news{
+    margin-bottom: 50px;
+}
+.all-news-wrapper .left-part .futured-news a img{
+
+}
+.all-news-wrapper .left-part .futured-news h1{
+    font-size: 30px;
+}
+.all-news-wrapper .left-part .category-news{
+    display: flex;
+    margin-right: 10px;
+}
+.all-news-wrapper .left-part .category-news a img{
+    width: 100px;
+    margin: 20px;
+}
+.all-news-wrapper .left-part .category-news .single-cat-news{
+    margin: 10px;
+}
+.all-news-wrapper .right-part{
+    width: 330px;
+}
+.all-news-wrapper .right-part .single-right{
+    margin-bottom: 40px;
+    background: white;
+}
+.all-news-wrapper .right-part .single-right .single-right-news{
+    margin-bottom: 50px;
+}
+.all-news-wrapper .right-part .single-right .single-right-news a{
+    display: flex;
+}
+
+
+.contact{
+    background: #f1f1f1;
+    margin-top: 20px;
+    text-align: center;
+    padding: 60px 0px;
+}
+.contact-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.border{
+    width: 160px;
+    height: 3px;
+    background: #e74c3c;
+    margin: 10px auto;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0px 20px;
+}
+.card{
+    background: #e9e9e9;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.card i{
+    background: #db604f;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.card i:hover{
+    transform: scale(1.6);
+}
+.card img{
+    
+    background: #1a0401;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.card:hover img{
+    background: transparent;
+    color:green;
+    transform: scale(1.6);
+}
+.card p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .4s;
+    position: absolute;
+    bottom: -30px;
+}
+.card:hover p{
+    bottom: 30px;
+}
